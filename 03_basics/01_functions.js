@@ -37,7 +37,8 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
-
+--------------------------------------------------------------------------------------------------------------------------------
+// functions with objects and array
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
