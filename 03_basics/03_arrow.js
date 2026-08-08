@@ -8,6 +8,7 @@ const user = {
     }
 
 }
+// this. refers current context ---------------// 
 
 // user.welcomeMessage()
 // user.username = "sam"
@@ -26,6 +27,8 @@ const user = {
 //     let username = "hitesh"
 //     console.log(this.username);
 // }
+
+// we can't use this. inside function or arrow function , it will give undifined value-----------------------------//
 
 const chai =  () => {
     let username = "hitesh"
